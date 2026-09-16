@@ -97,6 +97,7 @@ function ScrollHero() {
           <header className="absolute inset-x-0 top-0 z-20 flex items-center justify-between px-5 py-6 md:px-10 md:py-8">
             <a href="#top" className="font-serif text-xl tracking-[0.3em] text-foreground">ÉCLAT</a>
             <div className="flex items-center gap-5 font-mono text-[10px] uppercase tracking-[0.22em] text-foreground/70">
+              <a href="/shop" className="transition-colors hover:text-primary">Collection</a>
               <a href="#cities" className="transition-colors hover:text-primary">Paris · Antwerp</a>
               <span className="border-l border-foreground/30 pl-5">{String(chapter).padStart(2, '0')} / 03</span>
             </div>

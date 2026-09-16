@@ -2,6 +2,8 @@ const LINKS = [
   { href: '#collection', label: 'Collection' },
   { href: '#making', label: 'The making' },
   { href: '#cities', label: 'Paris · Antwerp' },
+  { href: '/shop', label: 'Shop the collection' },
+  { href: '/login', label: 'Client account' },
 ]
 
 export function Footer() {
